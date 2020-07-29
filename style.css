@@ -1,1 +1,50 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: 'Nunito';
+}
+header,footer{
+    width: 100vw;
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+display: flex;
+justify-content: stretch;
+align-items: stretch;
+margin: 5px 0;
+}
+nav,aside{
+    background-color: darkolivegreen;
+    width:15%;
+    padding: 1rem;
+}
+article{
+    width:70%;
+    background-color:rgb(140, 170, 87);
+    padding: 1rem;
+    order: 2;
+    margin:0 5px;
+}
+#main nav{
+    order: 1;
+}
+#main aside{
+    order: 3;
+}
+  footer {
+      justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+  }

@@ -4,3 +4,17 @@ header {
   color: white;
   justify-content: center;
 }
+
+#main {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 100%;
+  margin: 10px 10px 10px 0px;
+  background-color: #656534;
+  color: white;
+  padding: 10px;
+}

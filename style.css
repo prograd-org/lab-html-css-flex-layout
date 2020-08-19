@@ -28,3 +28,13 @@ article {
   color: white;
   padding: 10px;
 }
+
+aside {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 100%;
+  margin: 10px 10px 10px 0px;
+  background-color: #656534;
+  color: white;
+  padding: 10px;
+}

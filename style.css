@@ -38,3 +38,10 @@ aside {
   color: white;
   padding: 10px;
 }
+
+footer {
+  display: flex;
+  background-color: #fea501;
+  color: white;
+  padding: 20px;
+}

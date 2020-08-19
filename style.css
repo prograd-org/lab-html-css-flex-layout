@@ -1,1 +1,6 @@
-
+header {
+  display: flex;
+  background-color: #fea501;
+  color: white;
+  justify-content: center;
+}

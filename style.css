@@ -1,1 +1,40 @@
+body{
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    background: orange;
+    color: white;
+}
+#main  {
+    display: flex;
+    flex-direction: row;
+    background: olive;
+    
+}
 
+nav,aside{
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    flex-direction: column;
+}
+article{
+    width: 60%;
+    display: flex;
+    padding: 10px;
+    color: white;
+    flex-direction: column;
+}
+
+
+footer{
+    display: flex;
+    justify-content: left;
+    background: orange;
+
+}

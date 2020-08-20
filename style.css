@@ -1,1 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:orange;
+    color:white;
+    height:100px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    border: white;
+    border-style: solid;
+    border-width: thick;
+    
 
+}
+#heading,
+#footer-part{
+    width: 100%;
+        position: fixed; 
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 700px;
+}
+#nav-part,
+ #aside-part{
+    display: flex;
+    width: 200px;
+    background-color:#808000;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding-top: 9%;
+    padding-left: 10px;
+    
+}
+#article-part{
+    display: flex;
+    flex-direction: column;
+
+    width: 890px;
+    background-color:#b8bc86;
+    color: white;
+    border: white;
+    border-style: solid;
+    border: thick;
+    padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: medium;
+    padding-top: 9%;
+}
+#span-part{
+    height: 20px;
+}
+#footer-part{
+    
+    display: flex;
+    background-color:#FFCC00;
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    height:50px;
+    border-top: white;
+    border: thick;
+    border-style: solid;
+    bottom: 0%;
+    padding: 10px;
+
+}

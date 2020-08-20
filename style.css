@@ -1,1 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,700;0,800;1,200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #fff;
+}
 
+#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background: #fff;
+  margin: 15px 0;
+}
+
+#main nav, #main aside, #main article {
+  /* border: 5px solid white; */
+  padding: 20px;
+}
+
+#main nav, #main aside {
+  min-width: 250px;
+  background: #425942;
+}
+
+#main aside {
+  /* display: flex; */
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+#main article p {
+  margin: 10px;
+}
+
+#main article {
+  background: grey;
+  margin: 0 15px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+}
+
+header h1 {
+  font-weight: 200;
+}
+
+header, footer {
+  background: orange;
+  font-size: 1.5em;
+}
+
+footer {
+  height: 100px;
+}
+
+@media (max-width: 800px) {
+  #main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #main article {
+    margin: 15px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

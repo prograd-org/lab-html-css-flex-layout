@@ -1,1 +1,44 @@
+header {
+    display: flex;
+    background-color: rgb(192, 192, 0);
+    justify-content: center;
+    color: white;
+}
 
+#main {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+
+}
+
+nav {
+    flex: 2 1250px;
+    background-color: lightcoral;
+    padding: 15px;
+
+}
+
+article {
+
+    flex: 2 4000px;
+    background-color: lightseagreen;
+    padding: 10px;
+    margin: 0 10px;
+
+}
+
+aside {
+
+    flex: 2 1250px;
+    background-color: lightcoral;
+    padding: 15px;
+
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(192, 192, 0);
+
+}

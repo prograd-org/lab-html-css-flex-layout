@@ -1,1 +1,82 @@
-
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;1,200;1,300&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 10px;
+        font-weight: 100;
+        background: black;
+    }
+    
+    header {
+        display: flex;
+        background-color: darkorange;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border: 5px solid white;
+        height: 100px;
+    }
+    
+    nav {
+        display: flex;
+        color: white;
+        background-color: olive;
+        border: 5px solid white;
+        height: 320px;
+        text-align: center;
+        padding: 10px;
+        width: 160px;
+        margin-left: 100px;
+    }
+    
+    article {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: darkkhaki;
+        border: 5px solid white;
+        height: 320px;
+        width: 920px;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    aside {
+        display: flex;
+        color: white;
+        background-color: olive;
+        border: 5px solid white;
+        height: 320px;
+        width: 165px;
+        text-align: center;
+        padding: 10px;
+        margin-right: 60px;
+    }
+    
+    .main {
+        display: flex;
+        color: white;
+        flex-wrap: wrap;
+    }
+    
+    footer {
+        background-color: darkorange;
+        text-align: center;
+        padding: 25px;
+        color: white;
+        border: 5px solid white;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .break {
+        display: block;
+    }

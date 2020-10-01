@@ -1,1 +1,40 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    margin-bottom: 15px;
+}
 
+#main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div nav {
+    background-color: chartreuse;
+    align-items: stretch;
+    padding: 90px 70px;
+    margin-right: 10px;
+}
+
+div aside {
+    background-color: coral;
+    padding: 90px 70px;
+    margin-left: 10px;
+}
+
+div article {
+    background-color: darkgreen;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 40px;
+    margin-top: 10px;
+}

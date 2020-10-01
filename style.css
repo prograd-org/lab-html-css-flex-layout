@@ -26,6 +26,11 @@ body {
     padding: 20px;
 }
 
+h1 {
+    font-size: 40px;
+    font-weight: 50;
+}
+
 footer {
     background-color: orange;
     color: white;
